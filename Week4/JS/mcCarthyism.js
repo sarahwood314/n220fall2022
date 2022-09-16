@@ -15,25 +15,31 @@ setup()
 function
 draw()
 {
+   
+
+    
+
+    let x = random(256);
+    let y = random(256);
+    let z = random(256);
+    let rb = color(x,y,z);
+    
     background(255);
-    color(179,84,84);
+    
+
+
+   fill(rb);
+   McCarythism(rb);
     circle(300,300,40);
+    
 /*McCarythism(179,20,50);*/
 }
 
-/*function
-McCarythism(r, g, b)
-{
-    fill(r,g,b);
-    if(r == 179)
+function
+McCarythism(x,y,z)
     {
-        r == 0;
+        if(x <= 179)
+        {
+            x == 0;
+        }
     }
-    
-    circle = (300,300, 100);
-} */
-
-function color(r, g, b)
-{
-    fill(r,g,b)
-}
