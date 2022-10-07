@@ -17,20 +17,15 @@ sirbox.style.backgroundColor = "#00CCCC";
 sirbox.style.width = width + "px";
 sirbox.style.height = height + "px";
 
-sirbox.onmouseover = earlOfBox();
-sirbox.onmouseout = earlOfBox();
 
 function
 earlOfBox()
 {
-    if(sirbox.type == 'mouseover')
-    sirbox.style.color = "#000000";
-    else
-    sirbox.style.color = "#00CCCC";
+    sirbox.style.backgroundColor = "black";
 }
 
-/*function
+function
 baronOfBox()
 {
-    sirbox.style.color = "#00CCCC";
-}*/
+    sirbox.style.backgroundColor = "#00CCCC";
+}
